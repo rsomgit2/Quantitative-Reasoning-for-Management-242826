@@ -1794,7 +1794,8 @@ input, select, textarea {
 
 	header.major h2 {
 		color: #F89D28;
-		font-size: 2.5em;
+		font-size: 2.0em;
+		margin-bottom: 42px;
 	}
 
 		header.major h2 + p {
@@ -2938,7 +2939,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section > .container {
-				padding: 4em 0 2em 0;
+				padding: 5.4em 0 2em 0;
 			}
 			
 			#footer { width: 1300px;  }
