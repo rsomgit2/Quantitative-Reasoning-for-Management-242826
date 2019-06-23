@@ -81,7 +81,7 @@
 									</header>
 									
 									<div class="ex1"><p style ="color: black";>
- <iframe src="https://apps.rotman.utoronto.ca/MediasiteVideoLink?Rid=a6f326b2841941b3bc19e90f13a6dc461d" width="100%" height="350px;"></iframe>	<br> </br>								
+ <iframe style="padding-bottom: 5px;"  src="https://apps.rotman.utoronto.ca/MediasiteVideoLink?Rid=a6f326b2841941b3bc19e90f13a6dc461d" width="100%" height="350px;"></iframe>								
 This course will show managers how statistics can be used to solve many day-to-day problems that arise in a business environment and in organizations generally. The key ingredient, however, in making decisions to affect change within your organization is to understand the process and the relative importance of its corresponding factors that are currently at play. For example, if productivity within your firm or organization has been falling over the past few quarters, then the challenge for management is to reverse this trend. In order to reverse such a negative trend, we first need to understand the factors that give rise to productivity, and identify which of the factors is contributing to the falling productivity. Only with this understanding can effective strategies be implemented. 
 
 
@@ -162,8 +162,20 @@ This course will show managers how statistics can be used to solve many day-to-d
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			
-		<script>	if (top.location!= self.location) {
-   top.location = self.location.href; </script>
+		<!-- <script>	if (top.location!= self.location) {
+   top.location = self.location.href; </script> -->
+
+<script type="text/javascript"> // if site open in iframe then redirect to main site
+      
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  $(function(){
+ if(window.top.location != window.self.location)
+             {
+                top.window.location.href = window.self.location;
+             }
+        });
+}
+</script>
    
 
 
